@@ -2,8 +2,15 @@
 
 # environment setup:
 1. Install Node:
-   -https://nodejs.org/en/download/
-
+    -https://nodejs.org/en/download/
+2. Install Angular CLI tool
+    -npm install -g @angular/cli
+3. In some cases, because Windows sucks when it comes to development, you may need to enable running scripts.
+    -https:/go.microsoft.com/fwlink/?LinkID=135170
+        1. Run command in powershell: 
+            -Get-ExecutionPolicy
+        2. If it returns 'Restricted', then you may want to consider changing it to 'Unrestricted'
+            -Set-ExecutionPolicy Unrestricted
 
 # local env:
 1. Change directories to earnestbros
