@@ -1,0 +1,15 @@
+/* btn-primary class */
+.btn-primary {
+    font-size: -webkit-xxx-large;
+    color: #007bff;
+    background-color: white;
+    border-color: white;
+}
+
+/* when clicking on element with btn-primary class */
+.btn-primary:not(:disabled):not(.disabled):active {
+    font-size: -webkit-xxx-large;
+    color: #007bff;
+    background-color: white;
+    border-color: white;
+}
