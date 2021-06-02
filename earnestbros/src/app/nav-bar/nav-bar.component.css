@@ -1,0 +1,7 @@
+.navbar-nav {
+    flex-direction: row;
+}
+
+li {
+    margin-right: 10px;
+}

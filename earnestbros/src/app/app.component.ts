@@ -7,5 +7,5 @@ import { GlobalConstants } from './globals/globalConstants';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = GlobalConstants.SITE_NAME;
+  isBrotherSelected = false;
 }

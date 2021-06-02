@@ -1,10 +1,17 @@
 <header>
   <app-header-content>
   </app-header-content>
-  <app-nav-bar>
+  <app-nav-bar *ngIf='isBrotherSelected'>
   </app-nav-bar>
 </header>
 
+<div class='container' *ngIf='!isBrotherSelected'>
+  <div class="brother-selection row">
+    <div class='edison-section col-md-4'></div>
+    <div class='border-section col-md-1'></div>
+    <div class='eisley-section col-md-4'></div>
+  </div>
+</div>
   <!-- Footer -->
 <footer>
 </footer>
